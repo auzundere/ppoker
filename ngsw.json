@@ -1,0 +1,71 @@
+{
+  "configVersion": 1,
+  "index": "https://auzundere.github.io/ppoker/index.html",
+  "assetGroups": [
+    {
+      "name": "app",
+      "installMode": "prefetch",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://auzundere.github.io/ppoker/favicon.ico",
+        "https://auzundere.github.io/ppoker/index.html",
+        "https://auzundere.github.io/ppoker/main.73902817ca10053d7e33.js",
+        "https://auzundere.github.io/ppoker/polyfills.5ce0503255a337f6263c.js",
+        "https://auzundere.github.io/ppoker/runtime.ec2944dd8b20ec099bf3.js",
+        "https://auzundere.github.io/ppoker/styles.1d46725acede9e8077bc.css"
+      ],
+      "patterns": []
+    },
+    {
+      "name": "assets",
+      "installMode": "lazy",
+      "updateMode": "prefetch",
+      "urls": [
+        "https://auzundere.github.io/ppoker/assets/icons/icon-128x128.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-144x144.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-152x152.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-192x192.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-384x384.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-512x512.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-72x72.png",
+        "https://auzundere.github.io/ppoker/assets/icons/icon-96x96.png"
+      ],
+      "patterns": []
+    }
+  ],
+  "dataGroups": [],
+  "hashTable": {
+    "https://auzundere.github.io/ppoker/assets/icons/icon-128x128.png": "8552894773673367a8e2cdcd7ecc4449f7e96464",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-144x144.png": "ab242f1a6d5ba896150dc4d0223982bf2fc0eece",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-152x152.png": "46cf1f49a45bd6c53dc5a8bb39476d7b662f4d73",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-192x192.png": "b19eb7fe342b2ab493b1b0f728c95ec79ab96e5f",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-384x384.png": "bcaf0c060e3e7107689c8be86ad0e95521c68d0f",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-512x512.png": "235799b2e1613543234f9b7582e35bb0eeeec9cf",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-72x72.png": "575757904aa8a022af330d23ba007d3ce934ae8d",
+    "https://auzundere.github.io/ppoker/assets/icons/icon-96x96.png": "8165305937a23ceb902d4e086ac9b2ac0bc37650",
+    "https://auzundere.github.io/ppoker/favicon.ico": "1cbef89e6cea73c8a2bbed1d05393f11b32e26e7",
+    "https://auzundere.github.io/ppoker/index.html": "2c0c75a81cfdcabb929b636dd074c1300155524a",
+    "https://auzundere.github.io/ppoker/main.73902817ca10053d7e33.js": "f973378f7339faa4129b46f2a8dfed138a0d8aed",
+    "https://auzundere.github.io/ppoker/polyfills.5ce0503255a337f6263c.js": "4bb0ddb0337dca4c37503d5dc42cb89914536e9f",
+    "https://auzundere.github.io/ppoker/runtime.ec2944dd8b20ec099bf3.js": "b62956c2192bfe5516d6374e753773901ed50ec5",
+    "https://auzundere.github.io/ppoker/styles.1d46725acede9e8077bc.css": "0e6ae61601e4f871891446ba02ac7d49c5b0bdb0"
+  },
+  "navigationUrls": [
+    {
+      "positive": true,
+      "regex": "^\\/.*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*\\.[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*$"
+    },
+    {
+      "positive": false,
+      "regex": "^\\/(?:.+\\/)?[^/]*__[^/]*\\/.*$"
+    }
+  ]
+}

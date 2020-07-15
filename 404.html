@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Planning-Poker</title>
+    <base href="https://auzundere.github.io/ppoker/">    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Planning-Poker helps your team with user story estimation."
+    />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="manifest" href="manifest.json" />
+    <meta name="theme-color" content="#1976d2" />
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-77032343-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+      gtag("config", "UA-77032343-2");
+    </script>
+  <link rel="stylesheet" href="styles.1d46725acede9e8077bc.css"></head>
+  <body>
+    <app-root></app-root>
+    <!-- 'fake' server side rendering -->
+    <div class="server-side-rendered">
+      <div class="container">
+        <router-outlet></router-outlet>
+        <app-welcome>
+          <div class="hero has-text-centered is-light">
+            <h1 class="is-size-1 is-size-3-mobile">
+              Welcome to Planning Poker
+            </h1>
+          </div>
+          <div class="section">
+            <div class="column is-10 is-offset-1">
+              <div class="notification is-warning is-size-5-desktop">
+                <p class="is-hidden-mobile">
+                  Planning Poker is a webapp to help you organize your User
+                  Story estimation meetings. Open a new session and invite your
+                  colleagues to join! All members can vote anonymously, nobody
+                  knows the results before everybody voted and the outcome is
+                  presented in a nice graph. The results are stored in the
+                  clients themselves, which communicate with each other via web
+                  sockets. None of your data are stored on the server. So once
+                  all members of the session close their windows all results are
+                  gone.
+                </p>
+                <p class="is-hidden-tablet is-size-6-mobile">
+                  Planning Poker is a webapp to help you organize your User
+                  Story estimation meetings. Open a new session and invite your
+                  colleagues to join! None of your data are stored on the
+                  server. So once all members of the session close their windows
+                  all results are gone.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="section">
+            <form novalidate="" class="ng-untouched ng-pristine ng-invalid">
+              <div class="block">
+                <div class="field has-addons has-addons-centered">
+                  <p class="control">
+                    <input
+                      class="input ng-untouched ng-pristine ng-invalid"
+                      name="sessionName"
+                      placeholder="Session Name"
+                      required=""
+                      ng-reflect-required=""
+                      ng-reflect-name="sessionName"
+                    />
+                  </p>
+                  <p class="control">
+                    <input
+                      class="button is-info"
+                      type="submit"
+                      value="Create new Session"
+                      disabled=""
+                    />
+                  </p>
+                </div>
+              </div>
+            </form>
+          </div>
+        </app-welcome>
+      </div>
+    </div>
+  <script type="text/javascript" src="runtime.ec2944dd8b20ec099bf3.js"></script><script type="text/javascript" src="polyfills.5ce0503255a337f6263c.js"></script><script type="text/javascript" src="main.73902817ca10053d7e33.js"></script></body>
+</html>
