@@ -1,0 +1,135 @@
+@charset "utf-8";
+
+$navbar-height: 0;
+$gap: 150px;
+
+@import "../node_modules/bulma/sass/utilities/_all.sass";
+@import "../node_modules/bulma/sass/base/_all.sass";
+@import "../node_modules/bulma/sass/elements/button.sass";
+@import "../node_modules/bulma/sass/elements/container.sass";
+@import "../node_modules/bulma/sass/elements/content.sass";
+@import "../node_modules/bulma/sass/elements/form.sass";
+@import "../node_modules/bulma/sass/elements/notification.sass";
+@import "../node_modules/bulma/sass/elements/title.sass";
+@import "../node_modules/bulma/sass/layout/_all.sass";
+@import "../node_modules/bulma/sass/grid/_all.sass";
+@import "../node_modules/bulma/sass/components/card.sass";
+@import "../node_modules/bulma/sass/components/level.sass";
+
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+body {
+    position: relative;
+    margin: 0;
+    padding-bottom: 4.5rem;
+    min-height: 100%;
+}
+
+app-vote-button {
+    display: contents;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 0;
+    background-color: unset;
+}
+
+.footer-body {
+    padding: 1rem;
+}
+
+.hero,
+.footer-body {
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+}
+
+.notification {
+    background-image: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 0.3),
+        rgba(255, 255, 255, 0.1)
+    );
+}
+
+.container {
+    position: unset;
+}
+
+svg {
+    fill: currentColor;
+    margin: 0 8px 0 8px;
+}
+
+.field.has-addons {
+    justify-content: flex-end;
+}
+
+div.is-fullwidth {
+    width: 100%;
+}
+
+.bottom-right {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+.observer-anchor {
+    position: relative;
+}
+
+.observer {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin-top: 3px;
+}
+
+svg.ct-chart-bar {
+    margin-left: -1em;
+}
+
+.card-content {
+    background: rgba(254, 254, 254, 0.75);
+}
+
+.card-header {
+    box-shadow: 0 3px 0px rgba(10, 10, 10, 0.5);
+}
+
+@media screen and (max-width: $tablet) {
+    body {
+        padding-bottom: 8em;
+    }
+
+    .section {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+}
+
+@media screen and (max-height: 50rem) {
+    .section {
+        padding-top: 1rem;
+        padding-bottom: 1rem;
+    }
+}
+
+@media screen and (min-width: $tablet) {
+    .ct-bar {
+        stroke-width: 30px !important;
+    }
+}
